@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-img {
+    background-image: url('../../public/Rectangle.jpg');
+    background-color: #EAE0CC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.big-egg {
+  width: 100%;
+  height: 175px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  border-top-right-radius: 100%;
+}
+
+.small-egg {
+  width: 75%;
+  height: 100px;
+  position: fixed;
+  bottom: -30px;
+  z-index: 2;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 5%;
+}
+
+.tall-egg {
+  height: 60%;
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  right: -30px;
+  z-index: 2;
+  border-radius: 90% 0px 10px 90px;
+}
