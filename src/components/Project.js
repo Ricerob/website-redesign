@@ -3,13 +3,13 @@ import '../pages/stylesheet.css'
 
 const Project = (props) => {
     return (
-        <>
+        <div className='py-2'>
             <div className='grid border-solid border-d-green border-2 rounded-3xl items-center justify-items-center'>
-                <h2 className='text-d-green text-2xl py-2'>{props.name}</h2>
+                <p className='text-d-green text-2xl py-2 px-5'>{props.name}</p>
                 <div className='flex flex-row items-center justify-items-center py-3'>
                     {props.icons}
                 </div>
-                <div className='min-h-30'>
+                <div className='min-h-30 px-5'>
                     <p>{props.desc}</p>
                 </div>
                 <div className='py-3'>
@@ -18,7 +18,7 @@ const Project = (props) => {
                     </button>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
