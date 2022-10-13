@@ -12,14 +12,23 @@ function Home() {
 
     return (
         <>
-            <div className='bg-light-tan min-h-screen background-img bg-center'>
+            <div className='bg-light-tan background-img bg-center max-h-screen h-full'>
                 <Navbar />
-                <div className='grid gap-4 grid-cols-3 grid-rows-3 mx-10'>
-                    <div className='col-start-3 row-start-2 bg-m-green min-h-200'>
+                <div className='hidden md:flex m-10 max-h-screen flex-col min-h-[85vh]'>
+                    <div className='pt-12'>
+                        <p className='text-8xl whitespace-pre text-m-green -mx-8 '>robby <br />rice</p>
                     </div>
-                    <div className='relative row-start-2 row-span-2 col-start-3 flex justify-center align-center bg-m-green rounded min-h-200'>
-                        <div className='absolute text text-light-tan'>
-                            <p>fullstack - python - machine learning -</p>
+                    <div className='items-center flex-1 pt-16 max-h-[30vh] align-middle flex justify-end'>
+                        <p className='text-5xl lg:text-6xl text-light-tan text-right hover:animate-pulse'>developer && engineer</p>
+                    </div>
+                    <div className='flex m-2'>   
+                        <div className='h-fit w-2/3 min-h-52 mr-10 flex rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 items-center align-middle'>
+                            <p className='text-black text-2xl py-6 px-6'>i'm robby, a student developer. welcome to my portfolio - feel free to snoop around and get in contact.</p>
+                        </div>
+                        <div className='flex justify-center w-1/3 min-h-[220px] items-center rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20'>
+                            <div className='relative text text-light-tan'>
+                                <p>fullstack - python - machine learning -</p>
+                            </div>
                         </div>
                     </div>
                 </div>
