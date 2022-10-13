@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Inter': ['Inter', 'sans-serif']
+      }
+    },
     colors: {
       'light-tan': '#EAE0CC',
       'terracotta': '#C9ADA1',

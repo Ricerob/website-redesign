@@ -6,8 +6,7 @@ const projects = [
         'name': 'senior design',
         'icons': [<FaPython size={60}/>, <FaJava size={60}/>],
         'desc': 'Automated annotation of source code for machine learning applications. Implented entire machine learning pipeline. Created a specialized RegEx tool to automatically tag parts of source code for training/test data.',
-        'githubLink': 'www.google.com'
-    },
+        },
     {
         'name': 'twitch clip grabber',
         'icons': [<FaPython size={60}/>, <FaHtml5 size={60}/>],
