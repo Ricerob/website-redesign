@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Projects() {
     var [project, setProject] = useState(
-        {'name': projects[0].name, 'icons': projects[0].icons, 'desc': projects[0].desc, 'githubLink': projects[0].githubLink}
+        {'name': projects[0].name, 'icons': projects[0].icons, 'desc': projects[0].desc, 'link': projects[0].link, 'linkName': projects[0].linkName}
     )
     var [selected, setSelected] = useState(0)
 
@@ -14,7 +14,7 @@ function Projects() {
         <li key={key} className={selected === key ? 'text-black hover:translate-x-4 transition-transform py-2' : 'text-d-green hover:translate-x-4 transition-transform py-2'} 
         onClick={function() { 
             setProject(
-                {'name': item.name, 'icons': item.icons, 'desc': item.desc, 'githubLink': item.githubLink}
+                {'name': item.name, 'icons': item.icons, 'desc': item.desc, 'link': item.link, 'linkName': item.linkName}
             )
             setSelected(key)
         }}>{item.name}</li>
@@ -35,12 +35,12 @@ function Projects() {
                     </ul>
                 </div>
                 <div className='hidden md:grid md:col-span-3 md:col-start-3 md:items-center'>
-                    <Project name={project.name} icons={project.icons} desc={project.desc} githubLink={project.githubLink}/>
+                    <Project name={project.name} icons={project.icons} desc={project.desc} link={project.link} linkName={project.linkName}/>
                 </div>
                 <div className='md:hidden'>
                     {
                         projects.map((item, key) => {
-                            return <Project name={item.name} icons={item.icons} desc={item.desc} githubLink={item.githubLink}/>
+                            return <Project name={item.name} icons={item.icons} desc={item.desc} link={item.link} linkName={project.linkName}/>
                         })
                     }
                 </div>
