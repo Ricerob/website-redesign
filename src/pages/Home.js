@@ -27,7 +27,7 @@ function Home() {
                         </div>
                         <div className='flex justify-center w-1/3 min-h-[220px] items-center rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 shadow-md'>
                             <div className='relative text text-light-tan'>
-                                <p>fullstack - python - machine learning -</p>
+                                <p>f u l l s t a c k  -  p y t h o n  -  m a c h i n e   l e a r n i n g - </p>
                             </div>
                         </div>
                     </div>
