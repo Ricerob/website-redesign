@@ -17,12 +17,12 @@ function About() {
                         <div className='pb-15 text-light-tan text-6xl'>
                             a bit about myself.
                         </div>
-                        <div className='py-12 px-6 rounded-2xl border-solid border-2 border-m-green bg-m-green bg-opacity-50 items-center align-middle'>
+                        <div className='shadow-md py-12 px-6 rounded-2xl border-solid border-2 border-m-green bg-m-green bg-opacity-50 items-center align-middle'>
                             <p className='text-lg text-slate-50'>I'm studying Software Engineering and German at Iowa State University. I'm slated to graduate in the Spring of 2023. Outside of programming, I enjoy reading, sports, and much more. Feel free to reach out! <br/><br/></p>
                             <p className='text-lg text-light-tan'>Sie können mir auch eine Nachricht auf Deutsch schicken.</p>
                         </div>
                     </div>
-                    <div className='bg-m-green bg-opacity-50 border-solid border-2 border-m-green rounded-2xl flex flex-col ml-12 items-center justify-between p-12 basis-0'>
+                    <div className='shadow-xl bg-m-green bg-opacity-50 border-solid border-2 border-m-green rounded-2xl flex flex-col ml-12 items-center justify-between p-12 basis-0'>
                         <FaPython size={60}/>
                         <FaReact size={60}/>
                         <SiJavascript size={60}/>

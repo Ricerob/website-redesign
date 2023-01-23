@@ -22,10 +22,10 @@ function Home() {
                         <p className='text-5xl lg:text-6xl text-light-tan text-right hover:animate-pulse'>developer && engineer</p>
                     </div>
                     <div className='flex m-2'>   
-                        <div className='h-fit w-2/3 min-h-52 mr-10 flex rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 items-center align-middle'>
+                        <div className='h-fit w-2/3 min-h-52 mr-10 flex rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 items-center align-middle shadow-md'>
                             <p className='text-black text-2xl py-6 px-6'>i'm robby, a student developer. welcome to my portfolio - feel free to snoop around and get in contact.</p>
                         </div>
-                        <div className='flex justify-center w-1/3 min-h-[220px] items-center rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20'>
+                        <div className='flex justify-center w-1/3 min-h-[220px] items-center rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 shadow-md'>
                             <div className='relative text text-light-tan'>
                                 <p>fullstack - python - machine learning -</p>
                             </div>
