@@ -18,7 +18,8 @@ function About() {
                             a bit about myself.
                         </div>
                         <div className='shadow-md py-12 px-6 rounded-2xl border-solid border-2 border-m-green bg-m-green bg-opacity-50 items-center align-middle'>
-                            <p className='text-lg text-slate-50'>I'm studying Software Engineering and German at Iowa State University. I'm slated to graduate in the Spring of 2023. Outside of programming, I enjoy reading, sports, and much more. Feel free to reach out! <br/><br/></p>
+                            <p className='text-lg text-slate-50'>I studied Software Engineering and German at Iowa State University. I'm currently employed with 
+                            <a href='https://www.etalyc.com/' className='text-decoration-none text-l-green' target='_blank' rel='noopener noreferrer'> Etalyc</a>. Outside of programming, I enjoy reading, sports, and much more. Feel free to reach out! <br/><br/></p>
                             <p className='text-lg text-light-tan'>Sie können mir auch eine Nachricht auf Deutsch schicken.</p>
                         </div>
                     </div>

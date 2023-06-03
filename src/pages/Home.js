@@ -23,7 +23,7 @@ function Home() {
                     </div>
                     <div className='flex m-2'>   
                         <div className='h-fit w-2/3 max-h-[20rem] md:min-h-52 mr-10 flex rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 items-center align-middle shadow-md'>
-                            <p className='text-black text-xl md:text-2xl py-6 px-6'>i'm robby, a student developer. welcome to my portfolio - feel free to snoop around and get in contact.</p>
+                            <p className='text-black text-xl md:text-2xl py-6 px-6'>i'm robby, a full-stack developer. welcome to my portfolio - feel free to snoop around and get in contact.</p>
                         </div>
                         <div className='hidden md:flex justify-center w-1/3 min-h-[220px] items-center rounded-2xl border-solid border-2 border-d-green backdrop-blur-xl bg-l-green bg-opacity-20 shadow-md'>
                             <div className='relative text text-light-tan'>

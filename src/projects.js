@@ -5,8 +5,8 @@ const projects = [
     {
         'name': 'SwiftTA',
         'icons': [<FaReact size={60} />, <SiTailwindcss size={60}/>, <SiNextdotjs size={50}/>, <FaAws size={60}/>],
-        'desc': 'Empowering professors and students with AI automated question generation. Textbook parsing. Full-stack web app.',
-        'link': 'https://www.swiftta.co/',
+        'desc': 'Empowering students with AI automated question generation. PDF parsing. Full-stack web app, AWS backend. Data streams from chat. OpenAI API.',
+        'link': 'https://www.swift-ta.com/',
         'linkName': 'Website'
     },
     {
@@ -14,19 +14,19 @@ const projects = [
         'icons': [<FaReact size={60} />, <SiTailwindcss size={60}/>],
         'desc': 'Web app to track Spotify artists\' releases. React and TailwindCSS. Multiple API call management. Media queries.',
         'link': 'https://track-spotify.vercel.app/',
-        'linkName': 'Link'
+        'linkName': 'Website'
+    },
+    {
+        'name': 'stream safe',
+        'icons': [<SiJavascript size={60}/>],
+        'desc': 'VS Code Extension for streamers to block sensitive files showing. Pure JavaScript. VS Code API. 5+ installs.',
+        'link': 'https://marketplace.visualstudio.com/items?itemName=ricerob.stream-safe',
+        'linkName': 'VSCode Extension Store'
     },
     {
         'name': 'senior design',
         'icons': [<FaPython size={60}/>, <FaJava size={60}/>],
         'desc': 'Automated annotation of source code for machine learning applications. Implented entire machine learning pipeline. Created a specialized RegEx tool to automatically tag parts of source code for training/test data.',
-    },
-    {
-        'name': 'tiktok live monitor',
-        'icons': [<FaPython size={60}/>],
-        'desc': 'Python script to establish websocket connection to live TikTok streams. Another websocket to display "game" mechanic. Unfinished.',
-        'link': 'https://github.com/Ricerob/tiktok-live-monitor',
-        'linkName': 'GitHub'
     },
     {
         'name': 'twitch clip grabber',
